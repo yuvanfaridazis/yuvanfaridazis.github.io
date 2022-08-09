@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title></title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
+
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(function () {
+            $(document).scroll(function () {
+                var $nav = $(".navbar-fixed-top");
+                    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+                });
+            });
+        </script>
+    </head>
+    <body id="page-top">
+
+       
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-fixed-top" id="mainNav" style="">
+            <div class="navigation container-fluid row-no-gutters" style="padding-left: 70px; padding-right: 70px;">
+                <a class="col navbar-brand fw-bold" href="#page-top">YuvanDev</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse mx-auto" id="navbarResponsive" style="width: 30% !important; padding-left: 0px !important;">
+                    <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                        <li class="nav-item mx-auto text-center" style="width: 110px;"><a class="nav-link   me-lg-3" style="border-bottom: 2px solid black; padding-bottom: 3px;" href="#">Home</a></li>
+                        <li class="nav-item mx-auto text-center" style="width: 110px;"><a class="nav-link me-lg-3" style="color:#adadad;" href="#blog">My Blog</a></li>
+                        <li class="nav-item mx-auto text-center" style="width: 120px;"><a class="nav-link me-lg-3" style="color:#adadad;" href="project.html">My Project</a></li>
+                        <li class="nav-item mx-auto text-center" style="width: 110px;"><a class="nav-link me-lg-3" style="color:#adadad;" href="about.html">About</a></li>
+                    </ul>
+                    <!-- <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
+                        <span class="d-flex align-items-center">
+                            <i class="bi-chat-text-fill me-2"></i>
+                            <span class="small">Send Feedback</span>
+                        </span>
+                    </button> -->
+                </div>
+                <div class="col-md-auto">
+                  </div>
+                <div class="col text-end align-items-end d-none d-xl-block" style="width: 24px; height: 24px;">
+                    <svg width="32" height="20" viewBox="0 0 32 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0.461426" width="31.5385" height="3.07692" fill="white"/>
+                        <rect x="12.7693" y="8.46143" width="19.2308" height="3.07692" fill="white"/>
+                        <rect x="7.38477" y="16.9229" width="24.6154" height="3.07692" fill="white"/>
+                        </svg>
+                        
+                        
+                </div>
+            </div>
+        </nav>
+        <!-- Mashead header-->
+        <header class="masthead max-h-screen" style="height: 100vh;">
+            <div class="header-center container" style="padding-left: 3rem; padding-right: 3rem;">
+                <div class="text-header row gx-5 align-items-center">
+                    <div class="col-lg-6">
+                        <!-- Mashead text and app badges-->
+                        <div class="mb-5 mb-lg-0 text-center text-lg-start">
+                            <p class="text-header-1 lead fw-normal" style="font-size: 22px; color:#212529; font-weight: 600;">Hello, I’m Yuvan Farid Azis</p>
+                            <h1 class="text-header-2 display-1 mb-3" style="font-weight: 700;">Full Stack Web and Mobile Apps Developer</h1>
+                            <p class="text-header-3 lead fw-normal text-muted" style="margin-bottom: 3rem;">As a full stack developer, i commited to deliver the best 
+                                product for client with awesome in design and rich of feature
+                                in development. I can integrate design to code very well, 
+                                because i’m ‘two-sides’ in developer, as a front end & a back end
+                                developer</p>
+                            <div class="btnrw d-flex flex-lg-row align-items-center text-center" style="flex-direction: column;">
+                                <a class=" btn btn-primary py-2 px-4 rounded-pill" href="#" target="_blank">Email me</a>
+                                <div style="width: 20px;"></div>
+                                <a class=" btn btn-outline-primary py-2 px-4 rounded-pill" href="#" target="_blank">Chat me</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="bcg-home" style="background-color: #373737; height: 100%; width: 440px; position: absolute; top: 0; right: 0;">
+
+                </div>
+
+                <div class="avatar rounded-circle" style="height: 300px; width: 300px; position: absolute; top: 182px; right: 300px;">
+                    <img class="avatar-item" style="height: 300px; width: 300px;"
+                        src="assets/icon_avatar.png"
+                    />
+                </div>
+
+                <div class="dots-1" style="position: absolute; top: 140px; left: 60px;">
+                    <svg width="17" height="80" viewBox="0 0 17 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="2.15505" cy="77.5818" r="2.15505" transform="rotate(-90 2.15505 77.5818)" fill="#949494"/>
+                        <circle cx="14.2233" cy="77.5818" r="2.15505" transform="rotate(-90 14.2233 77.5818)" fill="#949494"/>
+                        <circle cx="2.15505" cy="34.0495" r="2.15505" transform="rotate(-90 2.15505 34.0495)" fill="#949494"/>
+                        <circle cx="14.2233" cy="34.0495" r="2.15505" transform="rotate(-90 14.2233 34.0495)" fill="#949494"/>
+                        <ellipse cx="2.15505" cy="55.816" rx="2.37055" ry="2.15505" transform="rotate(-90 2.15505 55.816)" fill="#949494"/>
+                        <ellipse cx="14.2233" cy="55.816" rx="2.37055" ry="2.15505" transform="rotate(-90 14.2233 55.816)" fill="#949494"/>
+                        <circle cx="2.15505" cy="12.9304" r="2.15505" transform="rotate(-90 2.15505 12.9304)" fill="#949494"/>
+                        <circle cx="14.2233" cy="12.9304" r="2.15505" transform="rotate(-90 14.2233 12.9304)" fill="#949494"/>
+                        <circle cx="2.15505" cy="66.8064" r="2.15505" transform="rotate(-90 2.15505 66.8064)" fill="#949494"/>
+                        <circle cx="14.2233" cy="66.8064" r="2.15505" transform="rotate(-90 14.2233 66.8064)" fill="#949494"/>
+                        <ellipse cx="2.15505" cy="23.4901" rx="1.93954" ry="2.15505" transform="rotate(-90 2.15505 23.4901)" fill="#949494"/>
+                        <ellipse cx="14.2233" cy="23.4901" rx="1.93954" ry="2.15505" transform="rotate(-90 14.2233 23.4901)" fill="#949494"/>
+                        <circle cx="2.15505" cy="44.8249" r="2.15505" transform="rotate(-90 2.15505 44.8249)" fill="#949494"/>
+                        <circle cx="14.2233" cy="44.8249" r="2.15505" transform="rotate(-90 14.2233 44.8249)" fill="#949494"/>
+                        <circle cx="2.15505" cy="2.15501" r="2.15505" transform="rotate(-90 2.15505 2.15501)" fill="#949494"/>
+                        <circle cx="14.2233" cy="2.15501" r="2.15505" transform="rotate(-90 14.2233 2.15501)" fill="#949494"/>
+                        </svg>
+                        
+                </div>
+
+                <div class="dots-2" style="position: absolute; bottom: 140px; left: 110px;">
+                    <svg width="142" height="29" viewBox="0 0 142 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="137.368" cy="25.1842" r="3.81579" transform="rotate(180 137.368 25.1842)" fill="#696969" fill-opacity="0.38"/>
+                        <circle cx="137.368" cy="3.81605" r="3.81579" transform="rotate(180 137.368 3.81605)" fill="#696969" fill-opacity="0.38"/>
+                        <circle cx="60.2894" cy="25.1842" r="3.81579" transform="rotate(180 60.2894 25.1842)" fill="#696969" fill-opacity="0.38"/>
+                        <circle cx="60.2894" cy="3.81605" r="3.81579" transform="rotate(180 60.2894 3.81605)" fill="#696969" fill-opacity="0.38"/>
+                        <ellipse cx="98.8289" cy="25.1842" rx="4.19737" ry="3.81579" transform="rotate(180 98.8289 25.1842)" fill="#696969" fill-opacity="0.38"/>
+                        <ellipse cx="98.8289" cy="3.81605" rx="4.19737" ry="3.81579" transform="rotate(180 98.8289 3.81605)" fill="#696969" fill-opacity="0.38"/>
+                        <circle cx="22.8947" cy="25.1842" r="3.81579" transform="rotate(180 22.8947 25.1842)" fill="#696969" fill-opacity="0.38"/>
+                        <circle cx="22.8947" cy="3.81605" r="3.81579" transform="rotate(180 22.8947 3.81605)" fill="#696969" fill-opacity="0.38"/>
+                        <circle cx="118.289" cy="25.1842" r="3.81579" transform="rotate(180 118.289 25.1842)" fill="#696969" fill-opacity="0.38"/>
+                        <circle cx="118.289" cy="3.81556" r="3.81579" transform="rotate(180 118.289 3.81556)" fill="#696969" fill-opacity="0.38"/>
+                        <ellipse cx="41.592" cy="25.1842" rx="3.43421" ry="3.81579" transform="rotate(180 41.592 25.1842)" fill="#696969" fill-opacity="0.38"/>
+                        <ellipse cx="41.592" cy="3.81605" rx="3.43421" ry="3.81579" transform="rotate(180 41.592 3.81605)" fill="#696969" fill-opacity="0.38"/>
+                        <circle cx="79.3683" cy="25.1842" r="3.81579" transform="rotate(180 79.3683 25.1842)" fill="#696969" fill-opacity="0.38"/>
+                        <circle cx="79.3683" cy="3.81605" r="3.81579" transform="rotate(180 79.3683 3.81605)" fill="#696969" fill-opacity="0.38"/>
+                        <circle cx="3.81568" cy="25.1842" r="3.81579" transform="rotate(180 3.81568 25.1842)" fill="#696969" fill-opacity="0.38"/>
+                        <circle cx="3.81568" cy="3.81605" r="3.81579" transform="rotate(180 3.81568 3.81605)" fill="#696969" fill-opacity="0.38"/>
+                        </svg>
+                </div>
+
+                <div class="dots-3" style="position: absolute; top: 420px; right: 90px;">
+                    <svg width="29" height="139" viewBox="0 0 29 139" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="3.74964" cy="134.987" r="3.74964" transform="rotate(-90 3.74964 134.987)" fill="#DBDBDB"/>
+                        <circle cx="24.7477" cy="134.987" r="3.74964" transform="rotate(-90 24.7477 134.987)" fill="#DBDBDB"/>
+                        <circle cx="3.74964" cy="59.2445" r="3.74964" transform="rotate(-90 3.74964 59.2445)" fill="#DBDBDB"/>
+                        <circle cx="24.7477" cy="59.2445" r="3.74964" transform="rotate(-90 24.7477 59.2445)" fill="#DBDBDB"/>
+                        <ellipse cx="3.74964" cy="97.1156" rx="4.12461" ry="3.74964" transform="rotate(-90 3.74964 97.1156)" fill="#DBDBDB"/>
+                        <ellipse cx="24.7477" cy="97.1156" rx="4.12461" ry="3.74964" transform="rotate(-90 24.7477 97.1156)" fill="#DBDBDB"/>
+                        <circle cx="3.74964" cy="22.4979" r="3.74964" transform="rotate(-90 3.74964 22.4979)" fill="#DBDBDB"/>
+                        <circle cx="24.7477" cy="22.4979" r="3.74964" transform="rotate(-90 24.7477 22.4979)" fill="#DBDBDB"/>
+                        <circle cx="3.74964" cy="116.239" r="3.74964" transform="rotate(-90 3.74964 116.239)" fill="#DBDBDB"/>
+                        <circle cx="24.7477" cy="116.239" r="3.74964" transform="rotate(-90 24.7477 116.239)" fill="#DBDBDB"/>
+                        <ellipse cx="3.74964" cy="40.8709" rx="3.37468" ry="3.74964" transform="rotate(-90 3.74964 40.8709)" fill="#DBDBDB"/>
+                        <ellipse cx="24.7477" cy="40.8709" rx="3.37468" ry="3.74964" transform="rotate(-90 24.7477 40.8709)" fill="#DBDBDB"/>
+                        <circle cx="3.74964" cy="77.9925" r="3.74964" transform="rotate(-90 3.74964 77.9925)" fill="#DBDBDB"/>
+                        <circle cx="24.7477" cy="77.9925" r="3.74964" transform="rotate(-90 24.7477 77.9925)" fill="#DBDBDB"/>
+                        <circle cx="3.74964" cy="3.74987" r="3.74964" transform="rotate(-90 3.74964 3.74987)" fill="#DBDBDB"/>
+                        <circle cx="24.7477" cy="3.74987" r="3.74964" transform="rotate(-90 24.7477 3.74987)" fill="#DBDBDB"/>
+                        </svg>
+                        
+                </div>
+
+                <div class="icon-bar" style="position: absolute; width: 498px; height: 64px; margin-left: auto; margin-right: auto; left: 0px; right: 0px; bottom: 0px; background: #F3F3F3; border-radius: 38.5px 38.5px 0px 0px; padding: 18px 20px;">
+                    <div class="icon-center d-flex flex-lg-row align-items-center text-center" style="flex-direction: column;">
+                        
+
+                        <a class="mx-auto" href="#" target="_blank">
+                           
+                            <img class="icon-item" style="width: 28px; height: 28px;"
+                            src="assets/facebook.png"
+                            />                                                      
+                        </a>
+
+                        <a class="mx-auto" href="#" target="_blank">
+                           <img class="icon-item" style="width: 28px; height: 28px;"
+                           src="assets/instagram.png"
+                           />                         
+                        </a>
+
+                        <a class="mx-auto" href="#" target="_blank">
+                            <img class="icon-item" style="width: 28px; height: 28px;"
+                            src="assets/youtube.png"
+                            />     
+                                                  
+                        </a>
+
+                        <a class="mx-auto" href="#" target="_blank">
+                            <img class="icon-item" style="width: 35px; height: 35px;"
+                            src="assets/dribbble.png"
+                            />                                 
+                        </a>
+
+                        <a class="mx-auto" href="#" target="_blank">
+                            <img class="icon-item" style="width: 28px; height: 28px;"
+                           src="assets/behance.png"
+                           />     
+                                      
+                        </a>
+
+                        <a class="mx-auto" href="#" target="_blank">
+                            <img class="icon-item" style="width: 28px; height: 28px;"
+                           src="assets/github.png"
+                           />     
+                                  
+                        </a>
+
+                        <a class="mx-auto" href="#" target="_blank">
+                            <img class="icon-item" style="width: 28px; height: 28px;"
+                           src="assets/linkedin.png"
+                           />     
+                                            
+                        </a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            
+        </header>
+
+        <div class="div-second d-block" style="background-color: #F3F3F3; padding: 50px 125px; padding-bottom: 50px !important;">
+            <div class="container">
+                <div class="daleman d-flex flex-lg-row align-items-center" style="justify-content: space-between !important; flex-direction: column;">
+                    <h2 class="header-project display-1 mb-3" style="font-weight: 700; font-size: 24px; border-bottom: 3px solid black; padding-bottom: 5px;">My Latest Project</h2>
+                    <a class="see-more display-1 fw-normal" href="project.html" target="_blank" style="text-decoration:none; font-size: 16px; color:#212529; font-weight: 600;">See more</a>
+                </div>
+
+                <div class="space" style="height: 40px;"></div>
+
+                <div class="d-flex flex-column flex-lg-row align-items-center" style="justify-content: space-between !important;">
+                    <a class="mb-3" href="#" target="_blank" style="text-decoration:none; color: #212529;">
+                        <div class="project-card">
+                            <img class="img-card" src="assets/img_dummy.png"/>
+                            <div style="height: 12px;"></div>
+                            <p class="display-1" style="line-height: 1.5; font-weight: 600; font-size: 16px;  margin: 0; padding: 0;">TIXET - Ticket Reservation Mobile App</p>
+                            <div style="height: 6px;"></div>
+                            <div class="project-item d-flex align-items-center" style="flex-direction: row;">
+                                <div class="mr-4" style="height: 24px; width: 24px;">
+                                    <img style="height: 24px; width: 24px;" src="assets/ic_android.png"/>
+                                </div>
+                                <div class="mr-4" style="height: 24px; width: 24px;">
+                                    <img style="height: 24px; width: 24px;" src="assets/ic_firebase.png"/>
+                                </div>
+                                <div class="mr-4" sstyle="height: 24px; width: 24px;">
+                                    <img style="height: 24px; width: 24px;" src="assets/ic_figma.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a class="mb-3" href="#" target="_blank" style="text-decoration:none; color: #212529;">
+                        <div class="project-card">
+                            <img class="img-card" src="assets/img_dummy.png"/>
+                            <div style="height: 12px;"></div>
+                            <p class="display-1" style="line-height: 1.5; font-weight: 600; font-size: 16px;  margin: 0; padding: 0;">TIXET - Ticket Reservation Mobile App</p>
+                            <div style="height: 6px;"></div>
+                            <div class="project-item d-flex align-items-center" style="flex-direction: row;">
+                                <div class="mr-4" style="height: 24px; width: 24px;">
+                                    <img style="height: 24px; width: 24px;" src="assets/ic_android.png"/>
+                                </div>
+                                <div class="mr-4" style="height: 24px; width: 24px;">
+                                    <img style="height: 24px; width: 24px;" src="assets/ic_firebase.png"/>
+                                </div>
+                                <div class="mr-4" sstyle="height: 24px; width: 24px;">
+                                    <img style="height: 24px; width: 24px;" src="assets/ic_figma.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a class="mb-3" href="#" target="_blank" style="text-decoration:none; color: #212529;">
+                        <div class="project-card">
+                            <img class="img-card" src="assets/img_dummy.png"/>
+                            <div style="height: 12px;"></div>
+                            <p class="display-1" style="line-height: 1.5; font-weight: 600; font-size: 16px;  margin: 0; padding: 0;">TIXET - Ticket Reservation Mobile App</p>
+                            <div style="height: 6px;"></div>
+                            <div class="project-item d-flex align-items-center" style="flex-direction: row;">
+                                <div class="mr-4" style="height: 24px; width: 24px;">
+                                    <img style="height: 24px; width: 24px;" src="assets/ic_android.png"/>
+                                </div>
+                                <div class="mr-4" style="height: 24px; width: 24px;">
+                                    <img style="height: 24px; width: 24px;" src="assets/ic_firebase.png"/>
+                                </div>
+                                <div class="mr-4" sstyle="height: 24px; width: 24px;">
+                                    <img style="height: 24px; width: 24px;" src="assets/ic_figma.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a class="mb-3" href="#" target="_blank" style="text-decoration:none; color: #212529;">
+                        <div class="project-card">
+                            <img class="img-card" src="assets/img_dummy.png"/>
+                            <div style="height: 12px;"></div>
+                            <p class="display-1" style="line-height: 1.5; font-weight: 600; font-size: 16px;  margin: 0; padding: 0;">TIXET - Ticket Reservation Mobile App</p>
+                            <div style="height: 6px;"></div>
+                            <div class="project-item d-flex flex-row align-items-center" style="flex-direction: column;">
+                                <div class="mr-4" style="height: 24px; width: 24px;">
+                                    <img style="height: 24px; width: 24px;" src="assets/ic_android.png"/>
+                                </div>
+                                <div class="mr-4" style="height: 24px; width: 24px;">
+                                    <img style="height: 24px; width: 24px;" src="assets/ic_firebase.png"/>
+                                </div>
+                                <div class="mr-4" sstyle="height: 24px; width: 24px;">
+                                    <img style="height: 24px; width: 24px;" src="assets/ic_figma.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="div-third d-block" style="background-color: #FFFFFF; padding: 65px 125px; padding-bottom: 85px !important;">
+            <div class="container">
+                <div class="d-flex flex-column flex-lg-row align-items-start" style="justify-content: space-between !important;">
+                    
+                    <div class="sub-bar" style="width: 45%;">
+                        <div class="daleman d-flex flex-lg-row align-items-center" style="justify-content: space-between !important; flex-direction: column;">
+                            <h2 class="header-project display-1 mb-3" style="font-weight: 700; font-size: 24px; border-bottom: 3px solid black; padding-bottom: 5px;">Latest Task</h2>
+                            <a class="see-more display-1 fw-normal" href="#" target="_blank" style="text-decoration:none; font-size: 16px; color:#212529; font-weight: 600;">See more</a>
+                        </div>
+
+                        <div class="space-2" style="height: 20px;"></div>
+
+                        <div class="task d-flex flex-lg-row align-items-start" style="flex-direction: column; ">
+                            <div class="img-task" style="background-color: #495057; width: 125px; height: 125px;">
+                                <svg class="mx-auto my-auto" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M45.3125 7.8125H4.6875C3.82324 7.8125 3.125 8.51074 3.125 9.375V40.625C3.125 41.4893 3.82324 42.1875 4.6875 42.1875H45.3125C46.1768 42.1875 46.875 41.4893 46.875 40.625V9.375C46.875 8.51074 46.1768 7.8125 45.3125 7.8125ZM16.5039 14.8438C18.2275 14.8438 19.6289 16.2451 19.6289 17.9688C19.6289 19.6924 18.2275 21.0938 16.5039 21.0938C14.7803 21.0938 13.3789 19.6924 13.3789 17.9688C13.3789 16.2451 14.7803 14.8438 16.5039 14.8438ZM41.5967 36.1865C41.5255 36.2463 41.4357 36.2791 41.3428 36.2793H8.65234C8.4375 36.2793 8.26172 36.1035 8.26172 35.8887C8.26172 35.7959 8.2959 35.708 8.35449 35.6348L16.6699 25.7715C16.8066 25.6055 17.0557 25.5859 17.2217 25.7227C17.2363 25.7373 17.2559 25.752 17.2705 25.7715L22.124 31.5332L29.8438 22.3779C29.9805 22.2119 30.2295 22.1924 30.3955 22.3291C30.4102 22.3438 30.4297 22.3584 30.4443 22.3779L41.6553 35.6397C41.7822 35.8008 41.7627 36.0498 41.5967 36.1865Z" fill="white"/>
+                                </svg>
+                            </div>
+
+                            <div class="spacew" style="width: 20px;"></div>
+
+                            <div class="width-task" style="width: 75%;">
+                                <p class="display-1 task-title" style="line-height: 1.5; font-weight: 700; font-size: 18px;  margin: 0; padding: 0;">Home Page Ticket Booking</p>
+                                <div class="space-3" style="height: 10px;"></div>
+                                <p class="display-1 task-desc" style="color: #6c757d; width: 100%; line-height: 1.5; font-weight: 400; font-size: 14px;  margin: 0; padding: 0;">Contoh kode javascript untuk menjumlahkan 2 object dengan key yang sama didalam json array</p>
+                                <div class="space-3" style="height: 10px;"></div>
+                                <div class="project-item d-flex flex-row align-items-center" style="flex-direction: column;">
+                                    <div class="mr-4" style="height: 24px; width: 24px;">
+                                        <img style="height: 24px; width: 24px;" src="assets/ic_android.png"/>
+                                    </div>
+                                    <div class="mr-4" style="height: 24px; width: 24px;">
+                                        <img style="height: 24px; width: 24px;" src="assets/ic_firebase.png"/>
+                                    </div>
+                                    <div class="mr-4" sstyle="height: 24px; width: 24px;">
+                                        <img style="height: 24px; width: 24px;" src="assets/ic_figma.png"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sub-bar-2" style="width: 45%;">
+                        <div class="daleman d-flex flex-lg-row align-items-center" style="justify-content: space-between !important; flex-direction: column;">
+                            <h2 class="header-project display-1 mb-3" style="font-weight: 700; font-size: 24px; border-bottom: 3px solid black; padding-bottom: 5px;">My Skills</h2>
+                            <a class="see-more display-1 fw-normal" href="#" target="_blank" style="text-decoration:none; font-size: 16px; color:#212529; font-weight: 600;">See more</a>
+                        </div>
+
+                        <div class="space-2" style="height: 20px;"></div>
+
+                        <div class="list-skills d-block flex-column flex-lg-row align-items-start" style="justify-content: start !important;">
+                            <a class="btn btn-outline-primary mr-4 py-1 px-4 rounded-pill btn-sm" style="border-width: 2px; margin-right: 15px;">Java</a>
+                            <a class="btn btn-outline-primary mr-4 py-1 px-4 rounded-pill btn-sm" style="border-width: 2px; margin-right: 15px;">Flutter</a>
+                            <a class="btn btn-outline-primary mr-4 py-1 px-4 rounded-pill btn-sm" style="border-width: 2px; margin-right: 15px;">Dart</a>
+                            <a class="btn btn-outline-primary mr-4 py-1 px-4 rounded-pill btn-sm-1" style="border-width: 2px; margin-right: 15px;">Figma</a>
+                            <a class="btn btn-outline-primary mr-4 py-1 px-4 rounded-pill btn-sm" style="border-width: 2px; margin-right: 15px; margin-top: 15px;">Android Studio</a>
+                            <a class="btn btn-outline-primary mr-4 py-1 px-4 rounded-pill btn-sm" style="border-width: 2px; margin-right: 15px; margin-top: 15px;">Visual Studio</a>
+                            <a class="btn btn-outline-primary mr-4 py-1 px-4 rounded-pill btn-sm" style="border-width: 2px; margin-right: 15px; margin-top: 15px;">UI/UX Design</a>
+                            <a class="btn btn-outline-primary mr-4 py-1 px-4 rounded-pill btn-sm" style="border-width: 2px; margin-right: 15px; margin-top: 15px;">Bootstrap</a>
+                            <a class="btn btn-outline-primary mr-4 py-1 px-4 rounded-pill btn-sm" style="border-width: 2px; margin-right: 15px; margin-top: 15px;">Laravel</a>
+                            <a class="btn btn-outline-primary mr-4 py-1 px-4 rounded-pill btn-sm" style="border-width: 2px; margin-right: 15px; margin-top: 15px;">Firebase</a>
+                            
+                        </div>
+
+                        <div class="space" style="height: 80px;"></div>
+                        
+                        <div class="martop-mb" style="">
+                            <svg width="128" height="27" viewBox="0 0 128 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="124.541" cy="23.1865" r="3.45946" transform="rotate(180 124.541 23.1865)" fill="#696969" fill-opacity="0.38"/>
+                                <circle cx="124.541" cy="3.81349" r="3.45946" transform="rotate(180 124.541 3.81349)" fill="#696969" fill-opacity="0.38"/>
+                                <circle cx="54.6594" cy="23.1865" r="3.45946" transform="rotate(180 54.6594 23.1865)" fill="#696969" fill-opacity="0.38"/>
+                                <circle cx="54.6594" cy="3.81349" r="3.45946" transform="rotate(180 54.6594 3.81349)" fill="#696969" fill-opacity="0.38"/>
+                                <ellipse cx="89.6" cy="23.1865" rx="3.80541" ry="3.45946" transform="rotate(180 89.6 23.1865)" fill="#696969" fill-opacity="0.38"/>
+                                <ellipse cx="89.6" cy="3.81349" rx="3.80541" ry="3.45946" transform="rotate(180 89.6 3.81349)" fill="#696969" fill-opacity="0.38"/>
+                                <circle cx="20.7567" cy="23.1865" r="3.45946" transform="rotate(180 20.7567 23.1865)" fill="#696969" fill-opacity="0.38"/>
+                                <circle cx="20.7567" cy="3.81349" r="3.45946" transform="rotate(180 20.7567 3.81349)" fill="#696969" fill-opacity="0.38"/>
+                                <circle cx="107.243" cy="23.1865" r="3.45946" transform="rotate(180 107.243 23.1865)" fill="#696969" fill-opacity="0.38"/>
+                                <circle cx="107.243" cy="3.81349" r="3.45946" transform="rotate(180 107.243 3.81349)" fill="#696969" fill-opacity="0.38"/>
+                                <ellipse cx="37.7081" cy="23.1865" rx="3.11352" ry="3.45946" transform="rotate(180 37.7081 23.1865)" fill="#696969" fill-opacity="0.38"/>
+                                <ellipse cx="37.7081" cy="3.81349" rx="3.11352" ry="3.45946" transform="rotate(180 37.7081 3.81349)" fill="#696969" fill-opacity="0.38"/>
+                                <circle cx="71.9567" cy="23.1865" r="3.45946" transform="rotate(180 71.9567 23.1865)" fill="#696969" fill-opacity="0.38"/>
+                                <circle cx="71.9567" cy="3.81349" r="3.45946" transform="rotate(180 71.9567 3.81349)" fill="#696969" fill-opacity="0.38"/>
+                                <circle cx="3.45936" cy="23.1865" r="3.45946" transform="rotate(180 3.45936 23.1865)" fill="#696969" fill-opacity="0.38"/>
+                                <circle cx="3.45936" cy="3.81349" r="3.45946" transform="rotate(180 3.45936 3.81349)" fill="#696969" fill-opacity="0.38"/>
+                                </svg>
+                                
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+
+        <div class="div-fourth d-block" style="background-color: #373737; padding: 65px 125px; padding-bottom: 75px;">
+            <div class="container">
+                <div class="d-flex flex-lg-row align-items-center" style="justify-content: space-between !important; flex-direction: column;">
+                    
+                    <div class="sub-bar" style="width: 45%;">
+                        <div class="footer-info d-flex flex-column flex-lg-row align-items-lg-start align-items-center" style="justify-content: start !important;">
+                            <img
+                                class="rounded"
+                                style="width: 115px; height: 115px;"
+                                src="assets/img_yuvan.png"
+                            />
+                            <div style="width: 30px;"></div>
+
+                            <div style="width: 80%;">
+                                <p class="txt-footer display-1" style="color: #ffffff; width: 100%; line-height: 1.5; font-weight: 400; font-size: 14px;  margin: 0; padding: 0;">Yuvan Farid Azis is a freelancer who focused on Mobile App Development, Web Development and UI/UX Design. Passionate on technology.</p>
+                                <div class="space-2" style="height: 30px;"></div>
+                                <p class="txt-footer-1 display-1" style="color: #ffffff; width: 100%; line-height: 1.5; font-weight: 400; font-size: 14px;  margin: 0; padding: 0;">Email: cs.yuvandev@gmail.com</p>
+                                <p class="txt-footer-1 display-1" style="color: #ffffff; width: 100%; line-height: 1.5; font-weight: 400; font-size: 14px;  margin: 0; padding: 0;">Phone: +6281285967787</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sub-bar-2" style="width: 45%;">
+                        <p class="txt-footer-2 display-1" style="color: #ffffff; width: 100%; line-height: 1.5; font-weight: 700; font-size: 20px;  margin: 0; padding: 0;">Interested collaborating with me?</p>
+                        <div class="space-2" style="height: 25px;"></div>
+                        <div class="d-flex align-items-center btnrw-footer" style="flex-direction: row;">
+                            <a class="btn btn-secondary py-1 px-4 rounded-pill btn-ft" href="#" target="_blank">Email me</a>
+                            <div class="spacew" style="width: 20px;"></div>
+                            <a class="btn btn-outline-secondary py-1 px-4 rounded-pill btn-ft" href="#" target="_blank">See Another Project</a>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+
+        <div class="div-fifth d-block" style="background-color: #373737; padding: 30px 125px;">
+            <div class="container text-center">
+                <p class="display-1" style="color: #ffffff; width: 100%; line-height: 1.5; font-weight: 400; font-size: 14px;  margin: 0; padding: 0;">© 2022 Yuvan Dev. All Rights Reserved</p>
+            </div>
+        </div>
+       
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
